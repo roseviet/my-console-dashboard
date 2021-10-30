@@ -1,5 +1,5 @@
 import weather from "weather-js";
-export default function ({ search, degreeType }) {
+export default function findWeather({ search, degreeType }) {
   return new Promise((resolve, reject) => {
     weather.find(
       {

@@ -7,6 +7,13 @@
     "start": "node index",
     "lint": "eslint ."
   },
+  "_moduleAliases": {
+    "@root": ".",
+    "@lib": "libs",
+    "@hook": "hooks",
+    "@api": "apis",
+    "@env": "libs/env.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -24,6 +31,7 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "figlet": "^1.5.2",
     "gradient-string": "^1.2.0",
+    "module-alias": "^2.2.2",
     "react": "^17.0.2",
     "react-blessed": "^0.7.2",
     "react-blessed-contrib": "^0.2.1",
